@@ -1,0 +1,93 @@
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  color: #66ccff;
+}
+
+button {
+  background-color: #66ccff;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+button:hover {
+  background-color: #3385ff;
+  color: #ffffff;
+}
+
+.start-button, .submit-button, .back-home-button {
+  margin-top: 20px;
+}
+
+.question {
+  background-color: #333333;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.question:hover {
+  background-color: #444444;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.result-item {
+  background-color: #444444;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+
+
+.correct-question {
+  background-color: #4CAF50; /* Green background for correct questions */
+  color: #ffffff;
+}
+
+.wrong-question {
+  background-color: #FF5252; /* Red background for wrong questions */
+  color: #ffffff;
+}
+
+.your-answer {
+  font-weight: bold;
+}
+
+.not-answered {
+  font-style: italic;
+}
+
